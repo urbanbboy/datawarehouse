@@ -19,8 +19,8 @@ hr {
 .container {
     width: 100%;
     max-width: 1120px;
-    padding: 0 30px;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 .page {
@@ -69,16 +69,17 @@ hr {
 }
 
 .nav__request__demo__btn {
-    text-decoration: none;
-    color: var(--font-primary-color);
-    font-size: 16px;
-    font-weight: 700;
-
     padding: 17px 29px;
+
     background-color: #fff;
     box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.10);
     border: none;
     border-radius: 50px;
+
+    text-decoration: none;
+    color: var(--font-primary-color);
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .nav__request__demo span {
@@ -87,19 +88,21 @@ hr {
 
 .header__row {
     position: relative;
-    margin-top: 147px;
     max-width: 100%;
+    margin-top: 147px;
 }
 
 .header__content {
     display: flex;
     flex-direction: column;
+
     color: var(--font-primary-color);
 }
 
 .header__title {
-    padding-bottom: 80px;
     width: 50%;
+    padding-bottom: 80px;
+    
     font-size: 70px;
     font-weight: 700;
     line-height: .9;
@@ -107,10 +110,11 @@ hr {
 }
 
 .header__content p {
+    width: 35%;
     padding-bottom: 50px;
+    
     font-size: 18px;
     font-weight: 500;
-    width: 35%;
     line-height: 1.5;
 }
 
@@ -120,10 +124,12 @@ hr {
 
 .header__content a {
     padding: 15px 37px;
+    
     color: #fff;
-    background-color: #9C69E2;
     text-decoration: none;
     font-weight: 700;
+    
+    background-color: #9C69E2;
     border: none;
     border-radius: 30px;
 }
@@ -157,6 +163,7 @@ hr {
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
+    
     background-color: #FDE8F4;
     border-radius: 50px;
 }
@@ -168,10 +175,10 @@ hr {
 }
 
 .help__content h1 {
+    padding-bottom: 40px;
     font-size: 40px;
     font-weight: 700;
     line-height: 1.3;
-    padding-bottom: 40px;
 }
 
 .help__content p {
@@ -212,12 +219,12 @@ hr {
 }
 
 .features__item {
+    width: 50%;
+    position: relative;
+    display: flex;
     margin: 60px 0;
     padding: 30px;
-    width: 50%;
-    display: flex;
     justify-content: space-between;
-    position: relative;
 }
 
 .features__content h2 {
@@ -276,8 +283,9 @@ hr {
 /* reviewa */
 .reviews {
     padding: 93px;
-    background-color: #9C69E2;
     position: relative;
+
+    background-color: #9C69E2;
     border-radius: 50px;
 }
 
@@ -289,9 +297,9 @@ hr {
 }
 
 .review__content {
-    padding-left: 50px;
     display: flex;
     flex-direction: column;
+    padding-left: 50px;
 }
 
 .review__content h3 {
@@ -307,8 +315,9 @@ hr {
 }
 
 .swiper-slide {
-    padding: 60px 70px;
     display: flex;
+    padding: 60px 70px;
+    
     background-color: #fff;
     border-radius: 30px;
 }
@@ -341,11 +350,12 @@ hr {
 }
 
 .footer__left h1 {
+    padding-bottom: 10px;
+
     color: var(--font-primary-color);
     font-size: 40px;
     font-weight: 700;
     line-height: 1.3;
-    padding-bottom: 10px;
 }
 
 .footer__col-socials {
@@ -354,10 +364,11 @@ hr {
 
 .footer__btn {
     margin-right: 40px;
+    padding: 16px 37px;
+
     text-decoration: none;
     color: #fff;
     font-size: 18px;
-    padding: 16px 37px;
     background-color: #F063B8;
     border: none;
     border-radius: 50px;
@@ -440,6 +451,7 @@ hr {
 
 .copyright a {
     padding: 13px 17px;
+    
     background-color: #EBE1F9;
     border-radius: 50%;
     font-size: 25px;
